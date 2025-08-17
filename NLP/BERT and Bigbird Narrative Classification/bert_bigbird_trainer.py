@@ -21,7 +21,7 @@ with open(file_path, 'rb') as file:
     result = chardet.detect(file.read())
     print(result)
 dln = pd.read_csv(file_path,  encoding=result['encoding'])
-dln = dln.dropna() #drops all the empty values because Excel is super awesome and not flawed in any way
+dln = dln.dropna() #drops all the empty values
 
 # This column "list" is a mult-hot encoded vector created by mushing together 8 columns of dummy variables in the data set that equal 1 if an incident that fits into that respective "aspect of concern" occurs the following day
 dln['list'] = dln[dln.columns[5:]].values.tolist()
