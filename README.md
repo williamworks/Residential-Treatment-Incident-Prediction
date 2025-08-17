@@ -1,6 +1,6 @@
 # Residential-Treatment-Incident-Prediction
 
-This repository contains a series of proof-of-concept machine learning models for predicting high-risk behavioral incidents in clinical settings, using both structured and unstructured (narrative) data. The goal is to explore how predictive modeling and natural language processing can support proactive intervention and improve care outcomes.
+This repository contains a series of proof-of-concept machine learning models for predicting high-risk behavioral incidents in clinical settings, using both structured and unstructured (narrative) data. The goal is to explore how predictive modeling of behavior and natural language processing can support proactive intervention and improve care outcomes.
 
 **All datasets in this repository are synthetic and do not contain any PHI. They were generated to reflect the statistical properties of real-world data.**
 
@@ -33,8 +33,7 @@ Key features:
 Notebooks:
 
 - random_forest_notebook.ipynb
-
-xgboost_notebook.ipynb
+- xgboost_notebook.ipynb
 
 ### Narrative Data (NLP)
 
